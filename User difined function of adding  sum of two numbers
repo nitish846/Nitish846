@@ -1,0 +1,13 @@
+#include <stdio.h>
+int add(int a,int b)
+{
+    return a+b;
+}
+int main()
+{
+int sum;
+add(300,400);
+sum=300+400;
+printf("sum of two numbers \n");
+}
+
