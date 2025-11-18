@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    float marks;
+    printf("enter the marks you obtained\n");
+    scanf("%d",&marks);
+    if(marks>=90)
+    {
+         printf("exellent\n");
+    }
+    else if (marks>=80)
+     {
+         printf("Good\n");
+     }
+    else if  (marks>=70)
+     {
+         printf("averag\n");
+     }
+     else if (marks==50)
+     {
+         printf("not bad\n");
+     }
+    else if (marks<=30)
+     printf("smart human in the world ");
+}
