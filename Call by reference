@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int x,y,temp,*p1,*p2;
+    printf("enter the value of x,y\n");
+    scanf("%d%d",&x,&y);
+    p1=&x;
+    p2=&y;
+    printf("before swapping is %d %d",x,y);
+    temp=x;
+    x=y;
+    y=temp;
+    printf("the swap value is %d %d",x,y);
+}
