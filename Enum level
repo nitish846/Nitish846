@@ -1,0 +1,11 @@
+#include<stdio.h>
+enum level{
+    low =1,
+    midium =5,
+    high =10
+};
+int main(){
+    enum level l;
+    l = midium;
+    printf("%d",l);
+}
